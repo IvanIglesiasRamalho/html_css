@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(177, 199, 220);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-image: url(IDVISUAL-Ri2-LOGOFINAL-01\ FUNDO\ BRANCO.png);
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    
+}
+h1 {
+    color: rgb(27, 107, 187);
+    }    
+h2 {
+    color: rgb(41, 107, 221);
+    }
+p {
+    color: white;
+    font-style: oblique;
+    text-align: justify;
+}
