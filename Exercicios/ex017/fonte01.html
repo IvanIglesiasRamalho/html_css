@@ -14,19 +14,32 @@
 
             Medidas relativas 
             em (relativo ao tamanho altuma M da fonte), ex (relativo a altura x de um fonte), rem (relativo ao root configurado no body), vw (viewwidth ou largura da sua tela), vh (viewhigh ou a altura da viewport [tela])
-            16px geralmente é igual a 1em
-            */
-            font-size: 18px;
+            16px geralmente é igual a 1em */
+           
+            font-size: 1em;
             font-weight: normal;
-            font-style: italic;
-            text-decoration: underline;
+            font-style: normal;
+            text-decoration: normal; 
+            
         }
         /* peso de fonte
             lighter, normal, bold, bolder */
 
-        /* h1, h2 {
-            font-family: 'Times New Roman', Times, serif;
-        } */
+        h1 {
+            /* shorthand font
+            -font-style->font-weight->font-size->font-family
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+             */
+            
+            font: italic bold 1.7em arial,sans-serif; 
+        } 
+        h2 {
+            font: italic bold 1.5em arial, sans-serif;
+        }
     </style>
 </head>
 <body>

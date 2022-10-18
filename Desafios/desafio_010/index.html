@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgaens/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Desafio 10</title>
+    <style>
+        @font-face {
+            font-family: 'Idroid';
+            src: url('fontes/idroid.otf') format('truetype');
+            font-weight: normal;
+            font-style: normal; }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(97, 157, 89);
+            margin: 0px;
+        }
+        header {
+            background-color: #5bc260da;
+            background-image: linear-gradient(to bottom, lightgreen, rgb(3, 84, 3)); 
+            padding: 10px;
+            margin: 10px;
+            color: white;
+        }
+
+        header > p {
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color:  rgb(7 111 7);
+            font-weight: bold;
+            /*box-shadow: 4px 3px 5px 2px #f7f7f7b0;*/
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            border: 10px;
+            margin: 10px;
+            border-radius: 5px 10px;
+            box-shadow: 5px 5px 2px 0px #00000073;
+        }
+
+        
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            /* box-shadow: 6px 6px 4px 2px rgba(0, 0, 0, 0.36); */
+        }
+        h2 { font-family: Idroid;
+             font-size: 1em;
+             text-align: center;}
+
+        h3 { font-family: Idroid;
+             font-size: 0.75em;
+             background-image: linear-gradient(to right, lightgreen, white);}
+
+        article {
+            background-color: white;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: white;
+            text-align: center;
+        }
+
+        footer {
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            font-size: small;
+
+        }
+
+        picture { 
+            display: flex;
+            justify-content: center;
+        }
+
+        .Video {
+            background-color: darkgreen;
+            padding: 5px;
+            border: 5px; 
+        }
+        
+        iframe {
+                 padding: 5px;
+                 border: 5px;
+                 background-color: darkgreen;
+                 display: flex;
+                 justify-content: center;
+                }
+
+        footer > p {
+            margin: 0px;  
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Curiosidades de tecnologia</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo <br>Tech, em um único lugar</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale conosco</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <article>
+                <h2>HISTORIA DO MASCOTE DO ANDROID</h2>
+                <h3>A primeira versão</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos doloremque sapiente voluptatem fuga vel vero ad aut. Numquam asperiores, vero, atque labore odio quas vitae voluptates blanditiis, quisquam cumque deleniti!</p>
+                <picture>
+                    <source media="(max-width: 750px)" srcset="imagens/dan-droids-pq.png" type="image/png">
+                    <source media="max-widht: 1050px" srcset="imagens/dan-droids.png" type="image/png">
+                    <img src="imagens/dan-droids.png" alt="Imagem Irina">
+                </picture>
+                <aside>Artigo do Ivan</aside>
+            </article>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h3>Surge um novo mascote</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, atque reprehenderit, adipisci veritatis a blanditiis et labore voluptatem, sequi dolorem voluptatibus harum asperiores hic magnam obcaecati delectus odit? Optio, ducimus?</p>
+                <picture>
+                    <source media="(max-width: 750px)" srcset="imagens/irina-blok-pq.jpg" type="image/png">
+                    <source media="max-widht: 1050px" srcset="imagens/irina-blok.jpg" type="image/png">
+                    <img src="imagens/irina-blok.jpg" alt="Imagem Irina">
+                </picture>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui aspernatur asperiores labore quibusdam, recusandae cumque fugit voluptatem sint repellat, libero obcaecati dolores deleniti pariatur dolorum tempore, cupiditate mollitia! Rem, error!</p>
+                <picture>
+                    <source media="(max-width: 750px )" srcset="imagens/bugdroid.png" type="image/png">
+                    <img src="imagens/bugdroid.png" alt="Novo mascote">
+                </picture>
+            </article>
+        </section>
+        <section id="Video"> 
+            <aside>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pTEMFzWUHis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </aside>
+        </section>
+    </main>
+    <footer>Desenvolvido por Ri2</footer>
+</body>
+</html>
