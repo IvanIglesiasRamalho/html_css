@@ -3,4 +3,4 @@
 
  Terei de atualizar todos os demais arquivos.
 
-<a href="https://ivaniglesiasramalho.github.io/html_css/Desafios/desafio_010/android.html">Executar o desafio 10</a>
+<a href="https://ivaniglesiasramalho.github.io/html_css/Exercicios/ex001/index.html">Executar o exercicio 001</a>
