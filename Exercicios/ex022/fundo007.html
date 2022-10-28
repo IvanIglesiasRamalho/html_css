@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex012/favicon.ico" type="image/x-icon">
+    <title>Centralização vertical</title>
+    <style>
+        #container {
+            /* para alinhar a posição do container deve ser relativa */
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: relative; 
+            height: 96vh;
+            background-color: purple;
+            padding: 10px;
+        }
+        #conteudo {
+            /* para o contudo o posicionmento é absoluto */
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<!-- Para alinhar verticalmente, necessitamos de um container e um conteudo-->
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
