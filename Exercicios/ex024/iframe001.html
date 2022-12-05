@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../ex012/favicon.ico" type="image/x-icon">
     <title>iframe 001</title>
+    <style>
+        iframe {
+            height: 400px;
+            width: 400px;
+            border: 2px dashed gray;
+        }
+    </style>
 </head>
 <body>
     <h1>Trabalhando com iframe</h1>
     <p>Acessando o site do 
-    
-        <iframe src="https://ri2technology.com.br" frameborder="0"></iframe>
-
+        <!-- Tamanho padrão do iframe 300X150px-->
+        <iframe src="https://ri2technology.com.br" frameborder="1" height="300" scolling="no"><a href="https://ri2technology.com.br" target="_blank">Ri2 Technology</a></iframe>
     para aprender a programar</p>
+    <p>O repositório do Guanabara também é bem legal<iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500"><a href="https://gustavoguanabara.github.io" target="_blank">Gustavo Guanabara Github</a></iframe> 
+        e funciona dentro do iframe</p>
 </body>
 </html>
